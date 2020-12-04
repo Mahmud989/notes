@@ -1,0 +1,8 @@
+<div style="display: block;
+    overflow: auto;
+    max-height: 100%;">
+  <ngx-editor [(ngModel)]="htmlContent" [style]="{height: '200px'}" (ngModelChange)="printData()">
+  </ngx-editor>
+  <app-ngx-editor [spellcheck]="true" [style]="{height: '200px'}" [(ngModel)]="htmlContent"></app-ngx-editor>
+
+</div>
